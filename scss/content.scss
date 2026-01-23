@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+    #content{
+        max-width: 95%;
+        max-height: 95%;
+        min-height: 95%;
+        min-width: 95%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        // temp
+        border: 1px solid white;
+    }
+
+    header{
+        width: 95vw;
+        height: 95vh;
+        padding: 1%;
+        
+        //temp
+        background-color: red;    
+    }
+
+    
+    main{
+        //temp
+        height: 400px;
+    }
+
+    footer{
+        //temp
+        height: 400px;
+    }
+}

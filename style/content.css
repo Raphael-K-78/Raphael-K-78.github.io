@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+body #content {
+  max-width: 95%;
+  max-height: 95%;
+  min-height: 95%;
+  min-width: 95%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 1px solid white;
+}
+body header {
+  width: 95vw;
+  height: 95vh;
+  padding: 1%;
+  background-color: red;
+}
+body main {
+  height: 400px;
+}
+body footer {
+  height: 400px;
+}

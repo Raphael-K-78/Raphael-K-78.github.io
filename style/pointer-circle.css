@@ -1,4 +1,4 @@
-#circle {
+#pointer-circle {
   z-index: 9999;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
   filter: blur(0.75px);
   transition: top 0.1s, left 0.1s;
 }
-#circle::before {
+#pointer-circle::before {
   content: "";
   position: absolute;
   top: -1px;
