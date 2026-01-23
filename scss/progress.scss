@@ -1,0 +1,49 @@
+
+
+progress,meter{
+        width: calc(100% + 10px);
+        height: 10px;
+        // border-radius: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        --progress-color: white;
+    }
+
+    progress{
+        // -moz-orient: vertical; //vertical, horizontal inline; block 
+        // width: 10px;
+        // height: 200px;
+        // padding: 1px;
+        // background-color: aqua;
+        background: transparent;
+        border: none;
+        top:0 ;
+
+        &:indeterminate {
+        opacity: 0.5;
+        box-shadow: 0 0 2px 1px var(--progress-color);
+        // -webkit-appearance: none;
+        }
+        
+        //Mozilla
+        &::-moz-progress-bar{
+            background-color: var(--progress-color);
+            border-radius: 0 10px 10px 0;
+        }
+
+        //Webkit
+        &::-webkit-progress-bar {
+            background-color: transparent; //couleur général
+        }
+        &::-webkit-progress-inner-element {
+            // border: 2px solid black;
+            background-color: transparent;//couleur général
+        }
+        &::-webkit-progress-value {
+            background-color: var(--progress-color);//couleur de la bar
+            border-radius: 0 10px 10px 0;
+        }
+        
+    }

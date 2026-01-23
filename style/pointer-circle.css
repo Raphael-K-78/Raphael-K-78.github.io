@@ -28,3 +28,9 @@
   pointer-events: none;
   filter: blur(2px);
 }
+
+@media (pointer: coarse) {
+  #pointer-circle {
+    display: none;
+  }
+}
