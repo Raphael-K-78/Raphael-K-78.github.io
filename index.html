@@ -3,12 +3,15 @@
 <head>
     
     <!-- Balise Style -->
-     <link rel="stylesheet" href="style/typo.css">
-     <link rel="stylesheet" href="style/pointer-circle.css">
-     <link rel="stylesheet" href="style/background.css">
-     <link rel="stylesheet" href="style/content.css">
-     <link rel="stylesheet" href="style/progress.css">
-   
+    <link rel="stylesheet" href="style/typo.css">
+    <link rel="stylesheet" href="style/pointer-circle.css">
+    <link rel="stylesheet" href="style/progress.css">
+    <link rel="stylesheet" href="style/background.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/xp_pro.css">
+    <link rel="stylesheet" href="style/timeline.css">
+    <link rel="stylesheet" href="style/slider.css">
+    
     <!-- Balise Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,11 +34,73 @@
     <!-- Content of the Site -->
     <div id="content">
         <header></header>
-        <main></main>
+        <main>
+            <!-- Formation -->
+            <section>
+                <h2>Mes Formations</h2>
+                <div class="timeline-content">
+                    <div class="timeline">
+                        <ul id="timeline">
+                            <!--
+                            Template timeline 
+                            <li>
+                                <div class="content">
+                                <h3>{formation} </h3>
+                                <p>{description}</p>
+                                </div>
+                                <div class="time">
+                                <h4>{date}</h4>
+                                <small>{mention}</small>
+                                </div>
+                            </li>                     -->
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Expérience -->
+            <section>
+                <h2>Mes Expériences Professionnels</h2>
+                <div id="xp_pro">
+
+                    <!-- 
+                    Template Card
+                    <div class='card'>
+                        <div class="content">
+                            <a class="header" href="{link}">
+                                <img src="{img}" alt="{entreprise}"/>
+                                <h3 class='title'>{poste}: {entreprise}</h3>
+                            </a>
+                        </div>
+                        <div class='description'>
+                            <div class="logo-slider">
+                                <div class="mission">{mission}</div>
+                                <div class="competence logo-track">
+                                    <div class="logo"><img src="{src}" alt="{alt}" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </section>
+
+            <!-- Projet -->
+            <section>
+                <h2>Mes Projets</h2>
+            </section>
+        </main>
         <footer></footer>
     </div>
 
     <!-- Script -->
 
+    <!-- slider -->
+    <script src="script/slider.js"></script>
+
+    <!-- Data -->
+     <script src="script/data/formation.js"></script>
+     <script src="script/data/experience.js"></script>
+    
 </body>
 </html>
