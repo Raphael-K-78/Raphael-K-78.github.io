@@ -1,0 +1,203 @@
+/* Ligne Horizontal */
+.timeline-content {
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: #d6d6d6;
+  border-radius: 1em;
+}
+
+.timeline ul {
+  padding: 3em 0 0 0;
+  margin: 0;
+  color: white;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.timeline .content {
+  position: relative;
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.3);
+  padding: 5px 5px 20px 5px;
+  border-radius: 5px;
+  border-color: white;
+}
+.timeline .content::before {
+  position: absolute;
+  width: 5px;
+  content: "";
+  aspect-ratio: 1/1;
+  border-left: 1.75px solid white;
+  border-top: 1.75px solid white;
+  top: 17px;
+  background: black;
+  border-radius: 1px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+  border-right: 2px solid white;
+}
+
+.timeline ul li:nth-child(even) .content {
+  border-left: 2px solid white;
+}
+
+.timeline ul li:nth-child(odd) .content::before {
+  right: -4px;
+  transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(even) .content::before {
+  left: -4px;
+  transform: rotate(315deg);
+}
+
+/* Point */
+.timeline ul li:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 24px;
+  right: -20px;
+  border: 3px solid #d6d6d6;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.3;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Font Awesome 7 Pro";
+  content: "\e29e";
+}
+
+.timeline ul li:nth-child(even):before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 24px;
+  left: -15px;
+  background: white;
+  border-radius: 50%;
+  border: 3px solid #d6d6d6;
+  text-align: center;
+  line-height: 1.3;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Font Awesome 7 Pro";
+  content: "\e29e";
+}
+
+.timeline ul li h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.timeline ul li p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.timeline ul li .time h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+  position: absolute;
+  top: 12px;
+  right: -112%;
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 18px;
+  text-align: left;
+  width: 100%;
+}
+
+.timeline ul li:nth-child(even) .time {
+  position: absolute;
+  top: 12px;
+  left: -112%;
+  text-align: right;
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 18px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .timeline {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .timeline {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .timeline:before {
+    left: 31px;
+    height: 100%;
+  }
+  .timeline ul li:nth-child(odd),
+  .timeline ul li:nth-child(even) {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd):before,
+  .timeline ul li:nth-child(even):before {
+    top: -18px;
+    left: 16px;
+  }
+  .timeline ul li:nth-child(odd) .time,
+  .timeline ul li:nth-child(even) .time {
+    top: -30px;
+    left: 50px;
+    right: inherit;
+    text-align: left;
+  }
+  .timeline ul li:nth-child(odd) .content::before {
+    left: -4px;
+    right: auto;
+    transform: rotate(315deg);
+  }
+  .timeline ul li:nth-child(odd) .content {
+    border-left: 2px solid white;
+    border-right: 0;
+  }
+}
