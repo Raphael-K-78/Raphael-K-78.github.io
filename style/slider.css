@@ -1,0 +1,34 @@
+.logo-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-track {
+  display: flex;
+  animation: scroll linear infinite;
+  justify-items: center;
+  animation-duration: 10s;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.logo {
+  flex: 0 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

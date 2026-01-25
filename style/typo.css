@@ -1,6 +1,13 @@
 @font-face {
-  font-family: "space age";
-  src: url("../fonts/SpaceAge/space age.ttf") format("ttf");
+  font-family: "Space Age";
+  src: url("../src/fonts/SpaceAge/space%20age.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: "Font Awesome 7 Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../src/fonts/FA/fa-solid-900.woff2);
 }

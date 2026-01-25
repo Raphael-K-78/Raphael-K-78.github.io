@@ -1,9 +1,15 @@
+@charset "UTF-8";
+/* 
+    Style Général du site
+*/
 body {
   margin: 0;
   height: 100vh;
   display: grid;
   place-items: center;
   overflow: hidden;
+  /* Header du site */
+  /* Expérience Pro */
 }
 body #content {
   position: relative;
@@ -15,15 +21,26 @@ body #content {
   overflow-x: hidden;
   border: 1px solid white;
 }
+body #content h2 {
+  font-family: "Space Age";
+  color: white;
+  text-align: center;
+}
+body #content h3 {
+  font-family: "Space Age";
+  font-size: 0.8em;
+}
+body #content a {
+  color: inherit;
+}
 body header {
   width: 95vw;
   height: 95vh;
   padding: 1%;
-  background-color: red;
 }
-body main {
-  height: 400px;
+body #xp_pro .card .logo-track {
+  animation-duration: 10s;
 }
-body footer {
-  height: 400px;
+body #xp_pro .card .logo-track .logo img {
+  width: 30px;
 }

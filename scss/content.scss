@@ -1,3 +1,6 @@
+/* 
+    Style Général du site
+*/
 body{
     margin: 0;
     height: 100vh;
@@ -15,25 +18,54 @@ body{
         overflow-x: hidden;
         // temp
         border: 1px solid white;
-    }
 
+        h2{
+            font-family: "Space Age";
+            color: white;
+            text-align: center;
+        }
+
+        h3{
+            font-family: "Space Age";
+            font-size: 0.8em;
+        }
+
+        a{
+            color: inherit;
+        }
+    }
+    /* Header du site */
     header{
         width: 95vw;
         height: 95vh;
         padding: 1%;
         
         //temp
-        background-color: red;    
+        // background-color: red;    
     }
 
     
-    main{
+    // main{
         //temp
-        height: 400px;
-    }
+        // height: 400px;
+    // }
 
-    footer{
-        //temp
-        height: 400px;
+    // footer{
+    //     //temp
+    //     height: 400px;
+    // }
+
+    /* Expérience Pro */
+    #xp_pro{
+        .card{
+            .logo-track{
+                animation-duration: 10s;
+                .logo{
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+        }
     }
 }
