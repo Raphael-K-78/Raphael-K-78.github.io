@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Librairie JavaScript -->
+     <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     
     <!-- Balise Style -->
     <link rel="stylesheet" href="style/typo.css">
@@ -12,6 +17,10 @@
     <link rel="stylesheet" href="style/xp_pro.css">
     <link rel="stylesheet" href="style/timeline.css">
     <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/slider2.css">
+    <link rel="stylesheet" href="style/popover.css">
+    <link rel="stylesheet" href="style/project.css">
+    
     
     <!-- Balise Meta -->
     <meta charset="UTF-8">
@@ -89,7 +98,18 @@
             <!-- Projet -->
             <section>
                 <h2>Mes Projets</h2>
+                <div id="projects">
+                    <div class="horizontal">
+                        <div class="project">
+                            <img src="assets/projet1.png" alt="Projet 1">
+                            <h3>Projet 1</h3>
+                            <p>Description du projet 1</p>
+
+                        </div>    
+                    </div>
+                </div>
             </section>
+            
         </main>
         <footer></footer>
     </div>
@@ -103,5 +123,32 @@
      <script src="script/data/formation.js"></script>
      <script src="script/data/experience.js"></script>
     
+    <!--  Popover -->
+    <script src="script/popover.js"></script>
+    
+    <!-- Slider -->
+    <script src="script/slider2.js"></script>
+     
 </body>
+
+ <!-- 
+Template Slider
+<div class="slider" data-slider>
+ <div class="slides">
+    <div class="slide">
+      <img src="https://placehold.co/600x400" alt="Slide 1">
+    </div>
+    <div class="slide">
+      <img src="https://placehold.co/600x400" alt="Slide 2">
+    </div>
+    <div class="slide">
+      <img src="https://placehold.co/600x400" alt="Slide 3">
+    </div>
+  </div>
+
+  <button class="nav prev" data-prev>&lt;</button>
+  <button class="nav next" data-next>&gt;</button>
+</div> 
+-->
+
 </html>
