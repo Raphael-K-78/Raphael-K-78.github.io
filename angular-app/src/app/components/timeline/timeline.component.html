@@ -1,0 +1,17 @@
+<div class="timeline-content">
+  <div class="timeline">
+    <ul id="timeline">
+      <li *ngFor="let item of formations">
+        <div class="content">
+          <h3>{{ item.formation }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
+        <div class="time">
+          <h4>{{ item.date }}</h4>
+          <small>{{ item.mention }}</small>
+        </div>
+      </li>
+    </ul>
+    <div style="clear: both;"></div>
+  </div>
+</div>

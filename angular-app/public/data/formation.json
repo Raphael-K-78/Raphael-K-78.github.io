@@ -1,0 +1,22 @@
+{
+  "formations": [
+    {
+      "formation": "Nom de la formation",
+      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
+      "date": "XX/XX/XX - XX/XX/XX",
+      "mention": "Mention"
+    },
+    {
+      "formation": "Nom de la formation",
+      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
+      "date": "XX/XX/XX - XX/XX/XX",
+      "mention": "Mention"
+    },
+    {
+      "formation": "Nom de la formation",
+      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
+      "date": "XX/XX/XX - XX/XX/XX",
+      "mention": "Mention"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<app-pointer-circle></app-pointer-circle>
+<app-background></app-background>
+<app-progress-bar [scrollContainer]="contentRef"></app-progress-bar>
+
+<div id="content" #contentRef>
+  <header></header>
+  <main>
+    <section>
+      <h2>Mes Formations</h2>
+      <app-timeline></app-timeline>
+    </section>
+
+    <section>
+      <h2>Mes Expériences Professionnels</h2>
+      <app-experience></app-experience>
+    </section>
+
+    <section>
+      <h2>Mes Projets</h2>
+      <app-projects></app-projects>
+    </section>
+  </main>
+  <footer></footer>
+</div>

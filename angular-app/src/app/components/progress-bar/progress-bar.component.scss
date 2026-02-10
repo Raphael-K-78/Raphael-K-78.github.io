@@ -1,0 +1,46 @@
+progress,
+meter {
+  width: calc(100% + 10px);
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  --progress-color: white;
+}
+
+progress {
+  background: transparent;
+  border: none;
+  top: 0;
+}
+
+progress:indeterminate {
+  opacity: 0.5;
+  box-shadow: 0 0 2px 1px var(--progress-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--progress-color);
+  border-radius: 0 10px 10px 0;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-inner-element {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--progress-color);
+  border-radius: 0 10px 10px 0;
+}
+
+:host{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%
+}

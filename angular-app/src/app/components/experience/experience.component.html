@@ -1,0 +1,18 @@
+  <div class="card" *ngFor="let exp of experiences">
+    <div class="content">
+      <a class="header" [href]="exp.link">
+        <img [src]="exp.img" [alt]="exp.entreprise" />
+        <h3 class="title">{{ exp.poste }}: {{ exp.entreprise }}</h3>
+      </a>
+    </div>
+    <div class="description">
+      <div class="logo-slider">
+        <div class="mission">{{ exp.mission }}</div>
+        <div class="competence logo-track" #logoTrack>
+          <div class="logo" *ngFor="let competence of exp.competences">
+            <img [src]="competence.src" [alt]="competence.alt" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
