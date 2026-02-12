@@ -7,23 +7,77 @@
         align-items: flex-start;
         padding-top: 5em;
         padding-bottom: 5em;
-         counter-reset: project;
+        counter-reset: project;
+        max-width: fit-content;
+        gap: 1.5em;
+        align-items: stretch;
+        .popover{
+            position: fixed;
+            width: 80vw;
+            // height: fit-content;
+            max-height: 80vh;
+            background: rgba($color: black, $alpha: 0.5);
+            border: 1px solid #000;
+            padding: 24px;
+            border-radius: 20px;
+            border: 5px solid white;
+            box-sizing: border-box;
+        }
+        .popover .close-btn{
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            //   border: 1px solid #000;
+            border: none;
+            background: transparent;
+            width: 32px;
+            //   border-radius: 5em;
+            height: 32px;
+            line-height: 28px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 1.2em;
+            color: white;
+            font-weight: bold;
+        }
+    .popover h2{
+      margin: 0 0 12px 0;
+      font-size: 1.2rem;
+    }
+    .popover p{
+      margin: 0 0 16px 0;
+      line-height: 1.4;
+      color: white;
+    }
+    .popover .slider {
+        max-height: 500px;
+    }
         .project{
-             counter-reset: project;
+            counter-increment: project;
              position: relative;
             border-radius: 10px;
             padding: 1em;
             width: 300px;
             text-align: center;
-            padding-top: 2em;
+            padding-top: 3em;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-           
+            border: 2px solid white;
+            min-width: 350px;
+            p{
+                text-align: left;
+            }
+            img{
+                width: 100%;
+                max-width: 500px;
+                margin-right: auto;
+                margin-left: auto;
+
+            }
             h3{
                 color: white;
             }
             &::before{
-                counter-increment: project;
                 content: counter(project, decimal-leading-zero);
                 top: 0;
                 /*! width: 100%; */
@@ -43,5 +97,11 @@
                 left: 0;
             }
         }
+    }
+}
+
+@media screen and (max-width:420px) {
+    #projects .horizontal .project{
+        min-width:80vw ;
     }
 }

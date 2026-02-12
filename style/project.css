@@ -7,23 +7,75 @@
   padding-top: 5em;
   padding-bottom: 5em;
   counter-reset: project;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  gap: 1.5em;
+  align-items: stretch;
+}
+#projects .horizontal .popover {
+  position: fixed;
+  width: 80vw;
+  max-height: 80vh;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #000;
+  padding: 24px;
+  border-radius: 20px;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+#projects .horizontal .popover .close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+#projects .horizontal .popover h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.2rem;
+}
+#projects .horizontal .popover p {
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+  color: white;
+}
+#projects .horizontal .popover .slider {
+  max-height: 500px;
 }
 #projects .horizontal .project {
-  counter-reset: project;
+  counter-increment: project;
   position: relative;
   border-radius: 10px;
   padding: 1em;
   width: 300px;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 3em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid white;
+  min-width: 350px;
+}
+#projects .horizontal .project p {
+  text-align: left;
+}
+#projects .horizontal .project img {
+  width: 100%;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #projects .horizontal .project h3 {
   color: white;
 }
 #projects .horizontal .project::before {
-  counter-increment: project;
   content: counter(project, decimal-leading-zero);
   top: 0;
   /*! width: 100%; */
@@ -39,4 +91,10 @@
   position: absolute;
   /*! top: 10; */
   left: 0;
+}
+
+@media screen and (max-width: 420px) {
+  #projects .horizontal .project {
+    min-width: 80vw;
+  }
 }

@@ -99,18 +99,42 @@
             <section>
                 <h2>Mes Projets</h2>
                 <div id="projects">
-                    <div class="horizontal">
+                    <div class="horizontal">  
+                        <!--
+                        project template 
                         <div class="project">
-                            <img src="assets/projet1.png" alt="Projet 1">
-                            <h3>Projet 1</h3>
-                            <p>Description du projet 1</p>
+                            <img src="{{img_src}}" alt="{{img_src_alt}}">
+                            <h3>{{name}}</h3>
+                            <p>{{description_courte}}</p>
+                            <button popovertarget="popover-{{id}}" popovertargetaction="show">En savoir plus</button>
+                            <div id="popover-{{id}}" class="popover" popover>
+                                <button type="button" class="close-btn" popovertarget="popover-{{id}}" popovertargetaction="hide">×</button>
+                                <h2>{{name}}</h2>
+                                <p>{{description_longue}}</p>
+                                <div class="slider" data-slider>
+                                    <div class="slides">
+                                        <div class="slide">
+                                        <img src="{{img_slide[0]["src"]}}" alt="{{img_slide[0]["alt"]}}">
+                                        </div>
+                                        <div class="slide">
+                                        <img src="{{img_slide[1]["src"]}}" alt="{{img_slide[1]["alt"]}}">
+                                        </div>
+                                        <div class="slide">
+                                        <img src="{{img_slide[2]["src"]}}" alt="{{img_slide[2]["alt"]}}">
+                                        </div>
+                                    </div>
 
-                        </div>    
+                                    <button class="nav prev" data-prev>&lt;</button>
+                                    <button class="nav next" data-next>&gt;</button>
+                                </div>
+                            </div>
+                        </div>  -->
                     </div>
                 </div>
             </section>
             
         </main>
+
         <footer></footer>
     </div>
 
@@ -119,16 +143,19 @@
     <!-- slider -->
     <script src="script/slider.js"></script>
 
-    <!-- Data -->
-     <script src="script/data/formation.js"></script>
-     <script src="script/data/experience.js"></script>
-    
+
     <!--  Popover -->
     <script src="script/popover.js"></script>
     
     <!-- Slider -->
-    <script src="script/slider2.js"></script>
-     
+    <script type="module" src="script/slider2.js"></script>
+
+
+    <!-- Data -->
+     <script type="module" src="script/data/formation.js"></script>
+     <script type="module" src="script/data/experience.js"></script>
+     <script type="module"src="script/data/project.js"></script>
+         
 </body>
 
  <!-- 

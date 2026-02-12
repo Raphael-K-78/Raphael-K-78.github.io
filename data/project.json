@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio Developer",
+      "img_src": "https://placehold.co/600x400",
+      "img_src_alt": "Aperçu du portfolio",
+      "description_courte": "Création d’un portfolio moderne.",
+      "description_longue": "Développement d’un portfolio responsive avec animations et slider.",
+      "img_slide": [
+        { "src": "https://placehold.co/600x400", "alt": "Accueil" },
+        { "src": "https://placehold.co/600x400", "alt": "Projets" }
+      ]
+    },
+    {
+      "name": "Portfolio Developer",
+      "img_src": "https://placehold.co/600x400",
+      "img_src_alt": "Aperçu du portfolio",
+      "description_courte": "Création d’un portfolio moderne.",
+      "description_longue": "Développement d’un portfolio responsive avec animations et slider.",
+      "img_slide": [
+        { "src": "https://placehold.co/600x400", "alt": "Accueil" },
+        { "src": "https://placehold.co/600x400", "alt": "Projets" }
+      ]
+    },
+    {
+      "name": "Portfolio Developer",
+      "img_src": "https://placehold.co/600x400",
+      "img_src_alt": "Aperçu du portfolio",
+      "description_courte": "Création d’un portfolio moderne.",
+      "description_longue": "Développement d’un portfolio responsive avec animations et slider.",
+      "img_slide": [
+        { "src": "https://placehold.co/600x400", "alt": "Accueil" },
+        { "src": "https://placehold.co/600x400", "alt": "Projets" }
+      ]
+    }
+  ]
+}

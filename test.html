@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Popover</title>
+  <style>
+
+    .popover{
+      position: fixed;
+      width: 80vw;
+      height: 80vh;
+      background: white;
+      border: 1px solid #000;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    .popover .close-btn{
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      border: 1px solid #000;
+      background: white;
+      width: 32px;
+      height: 32px;
+      line-height: 28px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .popover h2{
+      margin: 0 0 12px 0;
+      font-size: 1.2rem;
+    }
+    .popover p{
+      margin: 0 0 16px 0;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="popover-wrap">
+    <button type="button" popovertarget="popover-1">Ouvrir Popover 1</button>
+    <div id="popover-1" class="popover" popover>
+      <button type="button" class="close-btn" popovertarget="popover-1" popovertargetaction="hide">×</button>
+      <h2>Titre Popover 1</h2>
+      <p>Texte du popover 1. Remplace par ton contenu.</p>
+    </div>
+  </div>
+
+  <div class="popover-wrap">
+    <button type="button" popovertarget="popover-2">Ouvrir Popover 2</button>
+    <div id="popover-2" class="popover" popover>
+      <button type="button" class="close-btn" popovertarget="popover-2" popovertargetaction="hide">×</button>
+      <h2>Titre Popover 2</h2>
+      <p>Texte du popover 2. Remplace par ton contenu.</p>
+    </div>
+  </div>
+</body>
+</html>

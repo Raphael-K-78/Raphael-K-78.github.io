@@ -1,5 +1,5 @@
 // slider.js
-function initSlider() {
+export function initSlider() {
     const sliders = document.querySelectorAll("[data-slider]");
 
     sliders.forEach(slider => {
@@ -29,6 +29,3 @@ function initSlider() {
         }
     });
 }
-
-// On l’exécute directement
-initSlider();
