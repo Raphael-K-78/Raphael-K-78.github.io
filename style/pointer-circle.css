@@ -9,8 +9,7 @@
   aspect-ratio: 1/1;
   width: 30px;
   opacity: 1;
-  -webkit-backdrop-filter: invert(100%);
-          backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%);
   pointer-events: none;
   filter: blur(0.75px);
   transition: top 0.1s, left 0.1s;

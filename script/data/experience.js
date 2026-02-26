@@ -1,3 +1,5 @@
+import { infinySlider } from "../slider.js";
+
 fetch('data/experience.json')
   .then(res => res.json())
   .then(data => {
@@ -32,5 +34,6 @@ fetch('data/experience.json')
       
       container.appendChild(card);
     });
+    infinySlider();
   })
   .catch(err => console.error("[-] Erreur chargement expériences :", err));

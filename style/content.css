@@ -8,8 +8,6 @@ body {
   display: grid;
   place-items: center;
   overflow: hidden;
-  /* Header du site */
-  /* Expérience Pro */
 }
 body #content {
   position: relative;
@@ -19,6 +17,8 @@ body #content {
   min-width: 95%;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
 }
 body #content h2 {
   font-family: "Space Age";
@@ -32,14 +32,129 @@ body #content h3 {
 body #content a {
   color: inherit;
 }
-body header {
-  width: 95vw;
-  height: 95vh;
-  padding: 1%;
+body {
+  /* Header du site */
+}
+body header.hero-header {
+  width: min(100%, 1100px);
+  min-height: 100svh;
+  margin: 1rem auto 2rem;
+  padding: clamp(1rem, 2vw, 2rem);
+  display: grid;
+  align-content: center;
+  gap: 0.75rem;
+  color: #ffffff;
+}
+body header.hero-header .hero-kicker {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.78;
+}
+body header.hero-header h1 {
+  margin: 0;
+  font-family: "Space Age";
+  font-size: clamp(1.8rem, 5.5vw, 3.8rem);
+  line-height: 1.05;
+}
+body header.hero-header .hero-subtitle {
+  margin: 0;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+  font-weight: 600;
+}
+body header.hero-header .hero-description {
+  margin: 0.25rem 0 0;
+  max-width: 62ch;
+  line-height: 1.6;
+  opacity: 0.92;
+}
+body header.hero-header .hero-nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: end;
+}
+body header.hero-header .hero-nav a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+body header.hero-header .hero-nav a:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.14);
+}
+body {
+  /* Expérience Pro */
 }
 body #xp_pro .card .logo-track {
   animation-duration: 10s;
 }
 body #xp_pro .card .logo-track .logo img {
   width: 30px;
+}
+
+body footer.site-footer {
+  margin: 3rem auto 1.5rem;
+  padding: 1rem;
+  border-radius: 14px;
+}
+body footer.site-footer .footer-title {
+  margin: 0 0 0.9rem;
+  color: #ffffff;
+  font-family: "Space Age";
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+body footer.site-footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+  color: #ffffff;
+}
+body footer.site-footer .footer-links .footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.92rem;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+body footer.site-footer .footer-links .footer-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: #ffffff;
+  display: block;
+}
+body footer.site-footer .footer-links .footer-link:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.36);
+}
+
+@media (max-width: 640px) {
+  body header.hero-header {
+    min-height: auto;
+  }
+  body header.hero-header .hero-nav {
+    gap: 0.45rem;
+  }
+  body header.hero-header .hero-nav a {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }

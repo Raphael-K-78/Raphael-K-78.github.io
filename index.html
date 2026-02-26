@@ -3,10 +3,10 @@
 <head>
     <!-- Librairie JavaScript -->
      <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <!-- Balise Style -->
     <link rel="stylesheet" href="style/typo.css">
     <link rel="stylesheet" href="style/pointer-circle.css">
@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="style/timeline.css">
     <link rel="stylesheet" href="style/slider.css">
     <link rel="stylesheet" href="style/slider2.css">
-    <link rel="stylesheet" href="style/popover.css">
     <link rel="stylesheet" href="style/project.css">
     
     
@@ -43,10 +42,20 @@
     
     <!-- Content of the Site -->
     <div id="content">
-        <header></header>
+        <header class="hero-header">
+            <nav class="hero-nav" aria-label="Navigation principale">
+                <a href="#formations">Formations</a>
+                <a href="#experiences">Expériences</a>
+                <a href="#projets">Projets</a>
+            </nav>
+            <p class="hero-kicker">Portfolio</p>
+            <h1>Raphaël Kondratiuk</h1>
+            <p class="hero-subtitle"></p>
+            <p class="hero-description"></p>
+        </header>
         <main>
             <!-- Formation -->
-            <section>
+            <section id="formations">
                 <h2>Mes Formations</h2>
                 <div class="timeline-content">
                     <div class="timeline">
@@ -69,7 +78,7 @@
                 </div>
             </section>
             <!-- Expérience -->
-            <section>
+            <section id="experiences">
                 <h2>Mes Expériences Professionnels</h2>
                 <div id="xp_pro">
 
@@ -96,7 +105,7 @@
             </section>
 
             <!-- Projet -->
-            <section>
+            <section id="projets">
                 <h2>Mes Projets</h2>
                 <div id="projects">
                     <div class="horizontal">  
@@ -135,13 +144,16 @@
             
         </main>
 
-        <footer></footer>
+        <footer class="site-footer">
+    <p class="footer-title">Restons en contact</p>
+    <div class="footer-links"></div>
+</footer>
     </div>
 
     <!-- Script -->
 
     <!-- slider -->
-    <script src="script/slider.js"></script>
+    <script type="module" src="script/slider.js"></script>
 
 
     <!--  Popover -->
@@ -154,8 +166,10 @@
     <!-- Data -->
      <script type="module" src="script/data/formation.js"></script>
      <script type="module" src="script/data/experience.js"></script>
-     <script type="module"src="script/data/project.js"></script>
-         
+     <script type="module" src="script/data/project.js"></script>
+     <script type="module" src="script/data/content.js"></script>
+
+    <!-- <script src="test.js"></script> -->
 </body>
 
  <!-- 
@@ -179,3 +193,6 @@ Template Slider
 -->
 
 </html>
+
+
+

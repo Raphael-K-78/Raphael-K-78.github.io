@@ -49,6 +49,10 @@ fetch('data/project.json')
 
       container.appendChild(card);
     });
-    initSlider()
+
+    initSlider();
+
+    const content = document.getElementById('content');
+    const horizontal = content?.querySelector('.horizontal');
   })
   .catch(err => console.error("[-] Erreur chargement projets :", err));

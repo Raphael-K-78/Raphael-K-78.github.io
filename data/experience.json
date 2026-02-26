@@ -3,37 +3,39 @@
     {
       "poste": "Poste ",
       "entreprise": "Entreprise",
-      "link": "lien de l'entreprise",
-      "img": "lien du logo de l'entreprise",
+      "link": "",
+      "img": "",
       "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
       "competences": [
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" }
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" }
+        
+        
       ]
     },
     {
       "poste": "Poste ",
       "entreprise": "Entreprise",
-      "link": "lien de l'entreprise",
-      "img": "lien du logo de l'entreprise",
+      "link": "",
+      "img": "",
       "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
       "competences": [
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" }
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" }
       ]
     },
     {
       "poste": "Poste ",
       "entreprise": "Entreprise",
-      "link": "lien de l'entreprise",
-      "img": "lien du logo de l'entreprise",
+      "link": "",
+      "img": "",
       "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
       "competences": [
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" },
-        { "src": "compétence", "alt": "compétence" }
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" },
+        { "src": "", "alt": "compétence" }
       ]
     }
   ]
