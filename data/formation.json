@@ -1,22 +1,22 @@
 {
   "formations": [
     {
-      "formation": "Nom de la formation",
-      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
-      "date": "XX/XX/XX - XX/XX/XX",
-      "mention": "Mention"
+      "formation": "BUT Métiers du Multimédia et de l'Internet (MMI) - UVSQ Université de Versailles Saint-Quentin-en-Yvelines",
+      "description": "Formation pluridisciplinaire en développement web, communication numérique et gestion de projet. Apprentissage du développement front-end et back-end, bases de données, UX/UI design, stratégie digitale et production audiovisuelle.",
+      "date": "Sept. 2023 - Juil. 2026",
+      "mention": ""
     },
     {
-      "formation": "Nom de la formation",
-      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
-      "date": "XX/XX/XX - XX/XX/XX",
-      "mention": "Mention"
+      "formation": "Baccalauréat STI2D - Systèmes d'Information et Numérique - Lycée Paul-Langevin BEAUVAIS",
+      "description": "Spécialisation en systèmes numériques, réseaux et programmation. Approfondissement en traitement du signal, analyse technique et gestion de projet technologique.",
+      "date": "Sept. 2021 - Juil. 2023",
+      "mention": "Mention Très Bien (16.04/20)"
     },
     {
-      "formation": "Nom de la formation",
-      "description": "description de la formation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta voluptatem commodi aliquid, perferendis earum explicabo adipisci, inventore sunt dolore error nam similique dolorem, deserunt veritatis hic obcaecati neque aliquam?",
-      "date": "XX/XX/XX - XX/XX/XX",
-      "mention": "Mention"
+      "formation": "Baccalauréat Général - Mathématiques, Physique-Chimie, NSI - Lycée Condorcet Limay",
+      "description": "Spécialités scientifiques orientées mathématiques, programmation et sciences physiques. Initiation approfondie à l'informatique avec Numérique et Sciences Informatiques (NSI).",
+      "date": "Sept. 2019 - Juil. 2021",
+      "mention": ""
     }
   ]
 }

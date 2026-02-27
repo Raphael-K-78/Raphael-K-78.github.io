@@ -1,41 +1,52 @@
 {
   "experiences": [
     {
-      "poste": "Poste ",
-      "entreprise": "Entreprise",
-      "link": "",
-      "img": "",
-      "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
+      "poste": "Alternant - Intégrateur Web",
+      "entreprise": "EventTech Services",
+      "link": "https://www.linkedin.com/company/105781203/",
+      "img": "https://api-frontassets.inwink.com/community/f78784be-ac6b-f011-8dca-0022488a3cad/asset/3b1c2ecb-afa5-f011-8e61-000d3a2355f0/file/rework-20logo-2012-20full-20new",
+      "mission": "Sept. 2025 - Aujourd’hui · Paris (Hybride)\nIntégration et personnalisation de sites événementiels avec le CMS Inwink. Développement front-end, optimisation UI/UX, accessibilité et support technique lors d’événements.",
       "competences": [
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" }
-        
-        
+        { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
+        { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
+        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
+        { "src": "https://cdn.simpleicons.org/wordpress", "alt": "WordPress" }
       ]
     },
     {
-      "poste": "Poste ",
-      "entreprise": "Entreprise",
-      "link": "",
-      "img": "",
-      "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
+      "poste": "Stagiaire - Intégrateur Web",
+      "entreprise": "EventTech Services",
+      "link": "https://www.linkedin.com/company/105781203/",
+      "img": "https://api-frontassets.inwink.com/community/f78784be-ac6b-f011-8dca-0022488a3cad/asset/3b1c2ecb-afa5-f011-8e61-000d3a2355f0/file/rework-20logo-2012-20full-20new",
+      "mission": "Avr. 2025 - Août 2025 · Paris\nParticipation à des projets clients (ADEME, Mercator Océan, JO 2024). Intégration front-end, développement WordPress et personnalisation CMS.",
       "competences": [
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" }
+        { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
+        { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
+        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
+        { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" }
       ]
     },
     {
-      "poste": "Poste ",
-      "entreprise": "Entreprise",
-      "link": "",
-      "img": "",
-      "mission": "description des missions: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus at natus iusto nemo sed minima modi, tempore excepturi officiis eligendi enim fugit, aut a distinctio quo odit. Mollitia, odio.",
+      "poste": "CDD - Tuteur Développement Web",
+      "entreprise": "UVSQ Université de Versailles Saint-Quentin-en-Yvelines",
+      "link": "https://www.linkedin.com/company/472434/",
+      "img": "https://www.uvsq.fr/uas/ksup/LOGO/logo-UVSQ-2020-RVB.png",
+      "mission": "Fév. 2025 - Avr. 2025 · Vélizy-Villacoublay\nAccompagnement pédagogique d’un étudiant en développement web. Structuration du code, bonnes pratiques et méthodologie projet.",
       "competences": [
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" },
-        { "src": "", "alt": "compétence" }
+        { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
+        { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
+        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" }
+      ]
+    },
+    {
+      "poste": "Stagiaire - Communication ",
+      "entreprise": "Full Adgency",
+      "link": "https://www.linkedin.com/company/10077890/",
+      "img": "https://www.full-adgency.com/assets/img/logo_white.png",
+      "mission": "Juin 2024 - Juil. 2024 · Beauvais\nParticipation à la création et mise à jour du contenue pour une société du groupe.",
+      "competences": [
+        { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
+        { "src": "https://cdn.simpleicons.org/css", "alt": "css" }
       ]
     }
   ]
