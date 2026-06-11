@@ -34,7 +34,7 @@ fetch('data/project.json')
                   popovertargetaction="hide">×</button>
 
           <h2>${project.name}</h2>
-          <p>${project.description_longue}</p>
+          <md>${project.description_longue}</md>
 
           <div class="slider" data-slider>
             <div class="slides">

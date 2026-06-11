@@ -24,6 +24,13 @@
   border: 5px solid white;
   box-sizing: border-box;
 }
+#projects .horizontal .popover md {
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+  color: white;
+  text-align: left;
+  display: block;
+}
 #projects .horizontal .popover .close-btn {
   position: absolute;
   top: 12px;
