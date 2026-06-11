@@ -15,6 +15,9 @@
         { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" },
         { "src": "https://cdn.simpleicons.org/sass", "alt": "SCSS" },
         { "src": "https://cdn.simpleicons.org/claude", "alt": "Claude" },
+        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
+        { "src": "https://cdn.simpleicons.org/markdown", "alt": "Markdown" },
+        { "src": "https://cdn.simpleicons.org/gitea", "alt": "Gitea" },
         { "src": "https://www.inwink.com/wp-content/uploads/2022/03/inwink-logo.svg", "alt": "Inwink" }
       ]
     },
@@ -29,7 +32,9 @@
         {"src":"https://cdn.simpleicons.org/json", "alt": "JSON"},
         { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
         { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
-        { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" }
+        { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" },
+        { "src": "https://cdn.simpleicons.org/virtualbox", "alt": "VirtualBox" },
+        { "src": "https://www.inwink.com/wp-content/uploads/2022/03/inwink-logo.svg", "alt": "Inwink" }
       ]
     },
     {
@@ -41,7 +46,11 @@
       "competences": [
         { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
         { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
-        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" }
+        { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
+        { "src": "https://cdn.simpleicons.org/mysql", "alt": "MySQL" },
+        { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" },
+        { "src": "https://cdn.simpleicons.org/virtualbox", "alt": "VirtualBox" },
+        { "src": "https://cdn.simpleicons.org/markdown", "alt": "Markdown" }
       ]
     },
     {
