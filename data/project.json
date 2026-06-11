@@ -2,85 +2,85 @@
   "projects": [
     {
       "name": "Countify",
-      "img_src": "src/img/Project/countify/countify1.png",
+      "img_src": "src/img/Project/countify/countify1.webp",
       "img_src_alt": "Aperçu de Countify",
       "description_courte": "Application web progressive (PWA) de comptage de présences lors d'événements, avec visualisations graphiques et export des données.",
       "description_longue": "Countify est une PWA développée en JavaScript permettant de gérer le suivi de présence lors d'événements. Elle offre la création et l'import d'événements (xlsx, csv), le comptage des arrivées et départs en temps réel, des statistiques instantanées (présents, arrivées, départs), ainsi que des graphiques interactifs regroupés par minute, heure ou journée. L'application fonctionne hors ligne grâce à un service worker et stocke les données localement.<br><br><strong>Technologies :</strong> JavaScript, CSS, HTML, PWA",
       "img_slide": [
-        { "src": "src/img/Project/countify/countify1.png", "alt": "Countify - Vue principale" },
-        { "src": "src/img/Project/countify/countify2.png", "alt": "Countify - Statistiques" },
-        { "src": "src/img/Project/countify/countify3.png", "alt": "Countify - Graphiques" },
-        { "src": "src/img/Project/countify/countify4.png", "alt": "Countify - Export" }
+        { "src": "src/img/Project/countify/countify1.webp", "alt": "Countify - Vue principale" },
+        { "src": "src/img/Project/countify/countify2.webp", "alt": "Countify - Statistiques" },
+        { "src": "src/img/Project/countify/countify3.webp", "alt": "Countify - Graphiques" },
+        { "src": "src/img/Project/countify/countify4.webp", "alt": "Countify - Export" }
       ]
     },
     {
       "name": "Sportcar",
-      "img_src": "src/img/Project/sportcar/sportcar1.png",
+      "img_src": "src/img/Project/sportcar/sportcar1.webp",
       "img_src_alt": "Aperçu de Sportcar",
       "description_courte": "Site web de location de voitures développé en PHP procédural, avec un backoffice complet de gestion des réservations.",
       "description_longue": "Sportcar est un projet fullstack réalisé en PHP procédural avec une base de données SQL. Il propose un site vitrine de location automobile côté client, ainsi qu'un espace d'administration complet permettant de gérer le catalogue de véhicules, les réservations et les clients. Le développement a mis l'accent sur la structuration du code procédural, la gestion des sessions et la sécurisation des accès au backoffice.<br><br><strong>Technologies :</strong> PHP, HTML, CSS, JavaScript, SQL",
       "img_slide": [
-        { "src": "src/img/Project/sportcar/sportcar1.png", "alt": "Sportcar - Accueil" },
-        { "src": "src/img/Project/sportcar/sportcar2.png", "alt": "Sportcar - Catalogue" },
-        { "src": "src/img/Project/sportcar/sportcar3.png", "alt": "Sportcar - Détail véhicule" },
-        { "src": "src/img/Project/sportcar/sportcar4.png", "alt": "Sportcar - Réservation" },
-        { "src": "src/img/Project/sportcar/sportcar5.png", "alt": "Sportcar - Backoffice" },
-        { "src": "src/img/Project/sportcar/sportcar6.png", "alt": "Sportcar - Gestion clients" },
-        { "src": "src/img/Project/sportcar/sportcart7.png", "alt": "Sportcar - Gestion réservations" },
-        { "src": "src/img/Project/sportcar/sportcar8.png", "alt": "Sportcar - Administration" }
+        { "src": "src/img/Project/sportcar/sportcar1.webp", "alt": "Sportcar - Accueil" },
+        { "src": "src/img/Project/sportcar/sportcar2.webp", "alt": "Sportcar - Catalogue" },
+        { "src": "src/img/Project/sportcar/sportcar3.webp", "alt": "Sportcar - Détail véhicule" },
+        { "src": "src/img/Project/sportcar/sportcar4.webp", "alt": "Sportcar - Réservation" },
+        { "src": "src/img/Project/sportcar/sportcar5.webp", "alt": "Sportcar - Backoffice" },
+        { "src": "src/img/Project/sportcar/sportcar6.webp", "alt": "Sportcar - Gestion clients" },
+        { "src": "src/img/Project/sportcar/sportcart7.webp", "alt": "Sportcar - Gestion réservations" },
+        { "src": "src/img/Project/sportcar/sportcar8.webp", "alt": "Sportcar - Administration" }
       ]
     },
     {
       "name": "Sinai",
-      "img_src": "src/img/Project/sinai/Sinai.png",
+      "img_src": "src/img/Project/sinai/Sinai.webp",
       "img_src_alt": "Aperçu de Sinai",
       "description_courte": "Site web d'une agence de communication associé à une campagne de sensibilisation au tri des déchets.",
       "description_longue": "Le projet Sinai se compose de deux volets : le site vitrine d'une agence de communication fictive, et une campagne de sensibilisation au tri des déchets. Développé en PHP et SQL, le projet intègre un quiz interactif, une interface d'administration et une page de connexion sécurisée. L'ensemble a été conçu pour proposer une expérience utilisateur cohérente avec l'univers de l'agence.<br><br><strong>Technologies :</strong> HTML, CSS, JavaScript, PHP, SQL",
       "img_slide": [
-        { "src": "src/img/Project/sinai/Sinai.png", "alt": "Sinai - Accueil" },
-        { "src": "src/img/Project/sinai/Sinai_Campagne.png", "alt": "Sinai - Campagne tri des déchets" },
-        { "src": "src/img/Project/sinai/Sinai_connection.png", "alt": "Sinai - Connexion" },
-        { "src": "src/img/Project/sinai/Sinai_admin_quizz.png", "alt": "Sinai - Admin quiz" },
-        { "src": "src/img/Project/sinai/sinai_guide.png", "alt": "Sinai - Guide" },
-        { "src": "src/img/Project/sinai/sinai_quizz.png", "alt": "Sinai - Quiz" }
+        { "src": "src/img/Project/sinai/Sinai.webp", "alt": "Sinai - Accueil" },
+        { "src": "src/img/Project/sinai/Sinai_Campagne.webp", "alt": "Sinai - Campagne tri des déchets" },
+        { "src": "src/img/Project/sinai/Sinai_connection.webp", "alt": "Sinai - Connexion" },
+        { "src": "src/img/Project/sinai/Sinai_admin_quizz.webp", "alt": "Sinai - Admin quiz" },
+        { "src": "src/img/Project/sinai/sinai_guide.webp", "alt": "Sinai - Guide" },
+        { "src": "src/img/Project/sinai/sinai_quizz.webp", "alt": "Sinai - Quiz" }
       ]
     },
     {
       "name": "Polygone",
-      "img_src": "src/img/Project/polygone/polygone1.png",
+      "img_src": "src/img/Project/polygone/polygone1.webp",
       "img_src_alt": "Aperçu de Polygone",
       "description_courte": "Webdocumentaire interactif sur les jeux vidéo ultraréalistes, intégrant des APIs YouTube et GitHub.",
       "description_longue": "Polygone est un webdocumentaire développé dans le cadre d'un projet universitaire MMI. Il propose une expérience immersive autour des jeux vidéo ultraréalistes, en combinant contenus multimédias, vidéos YouTube embarquées via API et données récupérées depuis GitHub. Le projet exploite PHP, SQL et AJAX pour dynamiser les contenus, et jQuery UI pour l'interactivité. Le webdocumentaire met en avant une narration visuelle riche et un parcours de lecture non-linéaire.<br><br><strong>Technologies :</strong> HTML, CSS, JavaScript, PHP, SQL, AJAX, API YouTube, API GitHub, jQuery",
       "img_slide": [
-        { "src": "src/img/Project/polygone/polygone1.png", "alt": "Polygone - Accueil" },
-        { "src": "src/img/Project/polygone/polygone2.png", "alt": "Polygone - Contenu" },
-        { "src": "src/img/Project/polygone/polygone3.png", "alt": "Polygone - Vidéos" },
-        { "src": "src/img/Project/polygone/polygone4.png", "alt": "Polygone - Données" }
+        { "src": "src/img/Project/polygone/polygone1.webp", "alt": "Polygone - Accueil" },
+        { "src": "src/img/Project/polygone/polygone2.webp", "alt": "Polygone - Contenu" },
+        { "src": "src/img/Project/polygone/polygone3.webp", "alt": "Polygone - Vidéos" },
+        { "src": "src/img/Project/polygone/polygone4.webp", "alt": "Polygone - Données" }
       ]
     },
     {
       "name": "Républik",
-      "img_src": "src/img/Project/républik/republik1.png",
+      "img_src": "src/img/Project/républik/republik1.webp",
       "img_src_alt": "Aperçu du projet Républik",
       "description_courte": "Migration automatisée d'un CMS vers Inwink : scraping Python, structuration Excel et import en masse d'événements, sociétés et membres.",
       "description_longue": "Dans le cadre d'une mission pour le client Républik, j'ai développé un pipeline Python permettant de scraper et structurer les données existantes de leur CMS (sites web, noms, sociétés, postes) afin de les importer dans la plateforme Inwink. Plus d'une centaine d'événements, plus de 300 sociétés et plusieurs centaines de membres ont été traités, mis en forme via Excel et importés automatiquement. Ce projet a nécessité une gestion rigoureuse du mapping de données et la production de scripts réutilisables et robustes pour couvrir l'ensemble des cas de figure rencontrés.<br><br><strong>Technologies :</strong> Python, Excel, Inwink",
       "img_slide": [
-        { "src": "src/img/Project/républik/republik1.png", "alt": "Républik - Vue 1" },
-        { "src": "src/img/Project/républik/republik2.png", "alt": "Républik - Vue 2" },
-        { "src": "src/img/Project/républik/republik3.png", "alt": "Républik - Vue 3" }
+        { "src": "src/img/Project/républik/republik1.webp", "alt": "Républik - Vue 1" },
+        { "src": "src/img/Project/républik/republik2.webp", "alt": "Républik - Vue 2" },
+        { "src": "src/img/Project/républik/republik3.webp", "alt": "Républik - Vue 3" }
       ]
     },
     {
       "name": "Inwink Event",
-      "img_src": "src/img/Project/wordpress/wordpress1.png",
+      "img_src": "src/img/Project/wordpress/wordpress1.webp",
       "img_src_alt": "Aperçu du plugin Inwink Event",
       "description_courte": "Plugin WordPress d'importation automatique de données d'événements depuis le back-office Inwink de Mercator Océan.",
       "description_longue": "Dans le cadre de mon stage chez EventTech, j'ai développé un plugin WordPress permettant d'importer automatiquement des données d'événements depuis le back-office Inwink de Mercator Océan. Le plugin récupère les données via des exports du CMS, les traite et les intègre dans WordPress sous forme de contenus structurés. J'ai travaillé sur le mapping des données pour assurer leur compatibilité avec l'architecture WordPress et les champs personnalisés du site. Un système d'automatisation a également été mis en place pour faciliter les mises à jour et éviter les modifications manuelles répétitives. Ce projet m'a permis de renforcer mes compétences en développement WordPress, en automatisation de données et en intégration dans un environnement professionnel réel.<br><br><strong>Technologies :</strong> WordPress, PHP, Inwink",
       "img_slide": [
-        { "src": "src/img/Project/wordpress/wordpress1.png", "alt": "Inwink Event - Vue 1" },
-        { "src": "src/img/Project/wordpress/wordpress2.png", "alt": "Inwink Event - Vue 2" },
-        { "src": "src/img/Project/wordpress/wordpress3.png", "alt": "Inwink Event - Vue 3" },
-        { "src": "src/img/Project/wordpress/wordpress4.png", "alt": "Inwink Event - Vue 4" }
+        { "src": "src/img/Project/wordpress/wordpress1.webp", "alt": "Inwink Event - Vue 1" },
+        { "src": "src/img/Project/wordpress/wordpress2.webp", "alt": "Inwink Event - Vue 2" },
+        { "src": "src/img/Project/wordpress/wordpress3.webp", "alt": "Inwink Event - Vue 3" },
+        { "src": "src/img/Project/wordpress/wordpress4.webp", "alt": "Inwink Event - Vue 4" }
       ]
     }
   ]
