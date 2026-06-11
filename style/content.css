@@ -36,7 +36,6 @@ body {
   /* Header du site */
 }
 body header.hero-header {
-  width: min(100%, 1100px);
   min-height: 100svh;
   margin: 1rem auto 2rem;
   padding: clamp(1rem, 2vw, 2rem);
