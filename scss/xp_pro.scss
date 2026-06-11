@@ -15,7 +15,13 @@
   padding: 10px;
   flex-wrap:wrap;
   justify-content:flex-start;
-  align-items:flex-start;
+  align-items: flex-start;
+  // transition: align-items .65s ease-in-out;
+  // align-items:stretch;
+
+  // &:has(.card:hover){
+  //   align-items: flex-start;
+  // }
 }
   .card{
     min-width:300px;
