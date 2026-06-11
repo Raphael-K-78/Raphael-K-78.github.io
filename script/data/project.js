@@ -1,4 +1,5 @@
 import { initSlider } from "../slider2.js";
+import { convertMarkdown } from "../markdown.js";
 
 fetch('data/project.json')
   .then(res => res.json())
@@ -51,6 +52,7 @@ fetch('data/project.json')
     });
 
     initSlider();
+    convertMarkdown();
 
     const content = document.getElementById('content');
     const horizontal = content?.querySelector('.horizontal');
