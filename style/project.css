@@ -84,6 +84,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+#projects .horizontal .project > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
+}
 #projects .horizontal .project h3 {
   color: white;
 }

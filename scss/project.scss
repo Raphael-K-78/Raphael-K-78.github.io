@@ -107,6 +107,10 @@
                 margin-left: auto;
 
             }
+            > img{
+                object-fit: cover;
+                aspect-ratio: 16/9;
+            }
             h3{
                 color: white;
             }
