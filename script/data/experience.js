@@ -24,7 +24,7 @@ fetch('data/experience.json')
         </div>
         <div class="description">
           <div class="logo-slider">
-            <div class="mission">${exp.mission}</div>
+            <md class="mission">${exp.mission}</md>
             <div class="competence logo-track">
               ${competencesHTML}
             </div>
@@ -34,6 +34,7 @@ fetch('data/experience.json')
       
       container.appendChild(card);
     });
+    convertMarkdown();
     infinySlider();
   })
   .catch(err => console.error("[-] Erreur chargement expériences :", err));

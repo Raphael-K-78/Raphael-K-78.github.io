@@ -1,3 +1,5 @@
+import { convertMarkdown } from "../markdown.js";
+
 fetch('data/formation.json')
   .then(response => response.json())
   .then(data => {
@@ -9,7 +11,7 @@ fetch('data/formation.json')
       li.innerHTML = `
         <div class="content">
           <h3>${item.formation}</h3>
-          <p>${item.description}</p>
+          <md>${item.description}</md>
         </div>
         <div class="time">
           <h4>${item.date}</h4>
@@ -19,6 +21,7 @@ fetch('data/formation.json')
 
       list.appendChild(li);
     });
+    convertMarkdown();
   })
   .catch(error => {
     console.error('[+] Erreur chargement formations :', error);

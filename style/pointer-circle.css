@@ -12,7 +12,7 @@
   backdrop-filter: invert(100%);
   pointer-events: none;
   filter: blur(0.75px);
-  transition: top 0.1s, left 0.1s;
+  transition: top 0s ease, left 0s ease;
 }
 #pointer-circle::before {
   content: "";

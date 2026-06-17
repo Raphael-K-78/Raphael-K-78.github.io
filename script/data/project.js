@@ -24,7 +24,7 @@ fetch('data/project.json')
         <h3>${project.name}</h3>
         <p>${project.description_courte}</p>
 
-        <button popovertarget="${popoverId}" popovertargetaction="show">
+        <button class="button" popovertarget="${popoverId}" popovertargetaction="show">
           En savoir plus
         </button>
 
@@ -35,8 +35,6 @@ fetch('data/project.json')
                   popovertargetaction="hide">×</button>
 
           <h2>${project.name}</h2>
-          <md>${project.description_longue}</md>
-
           <div class="slider" data-slider>
             <div class="slides">
               ${slidesHTML}
@@ -45,6 +43,7 @@ fetch('data/project.json')
             <button class="nav prev" data-prev>&lt;</button>
             <button class="nav next" data-next>&gt;</button>
           </div>
+          <md>${project.description_longue}</md>
         </div>
       `;
 

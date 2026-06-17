@@ -8,14 +8,16 @@
 }
 
 #xp_pro{
-  display: flex;
+  // display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: 20px auto;
   padding-top: 0.25em;
   padding: 10px;
   flex-wrap:wrap;
   justify-content:flex-start;
-  align-items: flex-start;
+  align-items:flex-start;
   // transition: align-items .65s ease-in-out;
   // align-items:stretch;
 
@@ -25,7 +27,7 @@
 }
   .card{
     min-width:300px;
-    width: clamp(300px, 45%, 100%); 
+    // width: clamp(300px, 45%, 100%); 
     position:relative;
     background:black;
     color: white;
@@ -71,17 +73,19 @@
       display: flex;
       justify-content: left;
       align-items: center;
+      height: 50px;
       img{
-        max-width: 75px;
         margin:0.5em;
-
+        max-height: 50px;
+        max-width: 75px;
+        object-fit: contain;
       }
     }
     
 }
 
-@media (max-width:907px){
+@media (max-width:768px){
     #xp_pro{
-        justify-content: center;
+        grid-template-columns: 1fr;
     }
 }

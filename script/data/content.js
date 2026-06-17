@@ -26,7 +26,7 @@ fetch('data/content.json')
 
     data.footer.links.forEach((item) => {
       const link = document.createElement('a');
-      link.className = 'footer-link';
+      link.className = 'button';
       link.href = item.href || '#';
       link.setAttribute('aria-label', item.label || 'Lien');
 

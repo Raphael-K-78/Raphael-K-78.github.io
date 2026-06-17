@@ -121,9 +121,13 @@
   font-weight: 600;
 }
 
-.timeline ul li p {
+.timeline ul li md {
   margin: 10px 0 0;
   padding: 0;
+  // p{
+  //   padding: 0;
+  //   margin:0 0 10px 0;
+  // }
 }
 
 .timeline ul li .time h4 {
@@ -190,6 +194,17 @@
     left: 50px;
     right: inherit;
     text-align: left;
+  }
+  .timeline{
+    ul{
+      li{
+        .content{
+          &::before{
+            display: none;
+          }
+        }
+      }
+    }
   }
   .timeline ul li:nth-child(odd) .content::before {
     left: -4px;

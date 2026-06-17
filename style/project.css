@@ -14,37 +14,41 @@
   overflow-x: scroll;
 }
 #projects .horizontal .popover {
-  position: fixed;
-  width: 80vw;
-  max-height: 80vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.95);
   border: 1px solid #000;
   padding: 24px;
-  border-radius: 20px;
   border: 5px solid white;
   box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  max-height: 100%;
+  width: 45%;
+  max-width: 100vw;
+  min-width: 350px;
+  margin-right: 0;
+  border-radius: 20px 0 0 20px;
+  border-right: 0;
 }
 #projects .horizontal .popover md {
-  margin: 0 0 16px 0;
+  margin: 16px 0 0 0;
   line-height: 1.4;
   color: white;
   text-align: left;
-  display: block;
 }
 #projects .horizontal .popover .close-btn {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 15px;
+  left: 15px;
   border: none;
   background: transparent;
-  width: 32px;
-  height: 32px;
-  line-height: 28px;
+  line-height: 0.8;
   text-align: center;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 25px;
   color: white;
   font-weight: bold;
+  padding: 0;
 }
 #projects .horizontal .popover h2 {
   margin: 0 0 12px 0;
@@ -57,23 +61,6 @@
 }
 #projects .horizontal .popover .slider {
   max-height: 500px;
-}
-#projects .horizontal .project button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-top-color: rgba(255, 255, 255, 0.7);
-  border-right-color: rgba(255, 255, 255, 0.7);
-  border-bottom-color: rgba(255, 255, 255, 0.7);
-  border-left-color: rgba(255, 255, 255, 0.7);
-  background: transparent;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.92rem;
-  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 #projects .horizontal .project {
   counter-increment: project;
@@ -121,5 +108,19 @@
 @media screen and (max-width: 420px) {
   #projects .horizontal .project {
     min-width: 80vw;
+  }
+}
+@media (max-width: 768px) {
+  #projects .horizontal .popover {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0 0 0 0;
+    background: rgba(0, 0, 0, 0.95);
+  }
+  #projects .horizontal .popover .close-btn {
+    right: 15px;
+    left: auto;
   }
 }
