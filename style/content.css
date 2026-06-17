@@ -73,21 +73,6 @@ body header.hero-header .hero-nav {
   gap: 0.6rem;
   justify-content: end;
 }
-body header.hero-header .hero-nav a {
-  text-decoration: none;
-  font-weight: 600;
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.06);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-}
-body header.hero-header .hero-nav a:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.14);
-}
 body {
   /* Expérience Pro */
 }
@@ -98,6 +83,30 @@ body #xp_pro .card .logo-track .logo img {
   width: 30px;
 }
 
+body :is(a, button).button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.92rem;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+body :is(a, button).button svg {
+  width: 1rem;
+  height: 1rem;
+  fill: #ffffff;
+  display: block;
+}
+body :is(a, button).button:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.36);
+}
 body footer.site-footer {
   margin: 3rem auto 1.5rem;
   padding: 1rem;
@@ -117,30 +126,6 @@ body footer.site-footer .footer-links {
   justify-content: center;
   gap: 0.55rem;
   color: #ffffff;
-}
-body footer.site-footer .footer-links .footer-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: transparent;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.92rem;
-  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
-body footer.site-footer .footer-links .footer-link svg {
-  width: 1rem;
-  height: 1rem;
-  fill: #ffffff;
-  display: block;
-}
-body footer.site-footer .footer-links .footer-link:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.36);
 }
 
 @media (max-width: 640px) {

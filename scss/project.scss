@@ -14,7 +14,7 @@
         overflow-x: scroll;
 
         .popover{
-            background: rgba($color: black, $alpha: 0.5);
+            background: rgba($color: black, $alpha: .95);
             border: 1px solid #000;
             padding: 24px;
             border: 5px solid white;
@@ -39,20 +39,22 @@
         }
         .popover .close-btn{
             position: absolute;
-            top: 12px;
-            right: 12px;
+            top: 15px;
+            // right: 12px;
+            left:15px;
             //   border: 1px solid #000;
             border: none;
             background: transparent;
-            width: 32px;
+            // width: 32px;
             //   border-radius: 5em;
-            height: 32px;
-            line-height: 28px;
+            // height: 32px;
+            line-height: .8;
             text-align: center;
             cursor: pointer;
-            font-size: 1.2em;
+            font-size: 25px;
             color: white;
             font-weight: bold;
+            padding: 0;
         }
     .popover h2{
       margin: 0 0 12px 0;
@@ -67,23 +69,23 @@
         max-height: 500px;
     }
         .project{
-            button{
-                display: inline-flex;
-                align-items: center;
-                gap: 0.45rem;
-                padding: 0.5rem 0.75rem;
-                border-radius: 999px;
-                border: 1px solid rgba(255, 255, 255, 0.7);
-                    border-top-color: rgba(255, 255, 255, 0.7);
-                    border-right-color: rgba(255, 255, 255, 0.7);
-                    border-bottom-color: rgba(255, 255, 255, 0.7);
-                    border-left-color: rgba(255, 255, 255, 0.7);
-                background: transparent;
-                color: #ffffff;
-                text-decoration: none;
-                font-size: 0.92rem;
-                transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-            }
+            // button{
+            //     display: inline-flex;
+            //     align-items: center;
+            //     gap: 0.45rem;
+            //     padding: 0.5rem 0.75rem;
+            //     border-radius: 999px;
+            //     border: 1px solid rgba(255, 255, 255, 0.7);
+            //         border-top-color: rgba(255, 255, 255, 0.7);
+            //         border-right-color: rgba(255, 255, 255, 0.7);
+            //         border-bottom-color: rgba(255, 255, 255, 0.7);
+            //         border-left-color: rgba(255, 255, 255, 0.7);
+            //     background: transparent;
+            //     color: #ffffff;
+            //     text-decoration: none;
+            //     font-size: 0.92rem;
+            //     transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+            // }
             counter-increment: project;
              position: relative;
             border-radius: 10px;
@@ -137,12 +139,18 @@
     }
 }
 @media (max-width: 768px){
-    #projects .horizontal .popover{
-        width: 100%;
-        min-width: 100%;
-        max-width: 100%;
-        border: none;
-        border-radius: 0 0 0 0;
-        background: rgba(0,0,0,.8);
+    #projects .horizontal{
+         .popover{
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            border: none;
+            border-radius: 0 0 0 0;
+            background: rgba(0,0,0,.95);
+            .close-btn{
+                right: 15px;
+                left: auto;
+            }
+        }
     }
 }

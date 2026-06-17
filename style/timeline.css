@@ -192,6 +192,9 @@
     right: inherit;
     text-align: left;
   }
+  .timeline ul li .content::before {
+    display: none;
+  }
   .timeline ul li:nth-child(odd) .content::before {
     left: -4px;
     right: auto;
