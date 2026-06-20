@@ -6,11 +6,15 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLW2LFRYJV"></script>
 
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
 
-    gtag('js', new Date());
-    gtag('config', 'G-HLW2LFRYJV');
+        gtag('consent', 'default', {
+            analytics_storage: 'denied'
+        });
+
+        gtag('js', new Date());
+        gtag('config', 'G-HLW2LFRYJV');
     </script>
 
     <!-- Balise Style -->
@@ -26,6 +30,7 @@
     <link rel="stylesheet" href="style/slider2.css">
     <link rel="stylesheet" href="style/project.css">
     <link rel="stylesheet" href="style/md.css">
+    <link rel="stylesheet" href="style/cookies.css">
     
     
     <!-- Balise Meta -->
@@ -47,8 +52,9 @@
     <progress id="progress" value="0" max="100"></progress>
     <script type="module" src="script/progress.js"></script>
     
-    <!-- Content of the Site -->
+    <!-- Contenue du Site -->
     <div id="content">
+        <!-- Header -->
         <header class="hero-header">
             <nav class="hero-nav" aria-label="Navigation principale">
                 <a class="button" href="#formations">Formations</a>
@@ -150,11 +156,19 @@
             </section>
             
         </main>
-
+        <!-- Footer -->
         <footer class="site-footer">
-    <p class="footer-title">Restons en contact</p>
-    <div class="footer-links"></div>
-</footer>
+            <p class="footer-title">Restons en contact</p>
+            <div class="footer-links"></div>
+        </footer>
+    </div>
+    <!-- Bannière de Cookie -->
+    <div id="cookie-banner" class="cookie-banner hidden">
+        <p>On utilise des cookies pour mesurer l’audience et améliorer le site.</p>
+        <div class="cookie-actions">
+            <button id="cookie-accept" class="button">Accepter</button>
+            <button id="cookie-decline" class="button">Refuser</button>
+        </div>
     </div>
 
     <!-- Script -->
@@ -179,7 +193,7 @@
      <script type="module" src="script/data/content.js"></script>
 
      <!-- Google Analytics -->
-    <script type="module" src="script/mainAnalytics.js"></script>
+    <script type="module" src="script/analytics/mainAnalytics.js"></script>
 
     <!-- <script src="test.js"></script> -->
 </body>

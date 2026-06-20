@@ -1,0 +1,39 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    width: fit-content;
+    max-width: calc(100vw - 40px);
+    border: 2px solid white;
+    flex-wrap: wrap;
+
+    &.hidden {
+        display: none;
+    }
+    .cookie-actions{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex: 1;
+         button {
+            margin-left: 10px;
+            padding: 8px 12px;
+            cursor: pointer;
+            &#cookie-accept{
+                background-color: green;
+            }
+            &#cookie-decline{
+                background-color: red
+            }
+        }
+    }
+}
+
+

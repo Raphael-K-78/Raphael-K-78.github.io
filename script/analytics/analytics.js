@@ -5,15 +5,11 @@ function gtagEvent(eventName, params = {}) {
 }
 
 export function trackClick(link) {
-  gtagEvent("click", {
-    link: link
-  });
+  gtagEvent("click", { link });
 }
 
 export function trackProject(projectName) {
-  gtagEvent("open_project", {
-    project: projectName
-  });
+  gtagEvent("open_project", { project: projectName });
 }
 
 let scroll25 = false;
