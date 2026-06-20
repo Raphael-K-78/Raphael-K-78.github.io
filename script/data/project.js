@@ -24,7 +24,7 @@ fetch('data/project.json')
         <h3>${project.name}</h3>
         <p>${project.description_courte}</p>
 
-        <button class="button" popovertarget="${popoverId}" popovertargetaction="show">
+        <button class="button" onClick="trackProject('${project.name}')" popovertarget="${popoverId}" popovertargetaction="show">
           En savoir plus
         </button>
 

@@ -1,4 +1,5 @@
 import { infinySlider } from "../slider.js";
+import { convertMarkdown } from "../markdown.js";
 
 fetch('data/experience.json')
   .then(res => res.json())
@@ -34,7 +35,8 @@ fetch('data/experience.json')
       
       container.appendChild(card);
     });
-    convertMarkdown();
     infinySlider();
+    convertMarkdown();
+
   })
   .catch(err => console.error("[-] Erreur chargement expériences :", err));

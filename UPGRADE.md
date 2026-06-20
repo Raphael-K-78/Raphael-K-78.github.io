@@ -35,3 +35,10 @@
     <!-- - bouton du slider pas le style des boutons que les icones -->
     <!-- - Mettre le bouton à gauche -->
 <!-- - **image**: forcé le 16/9 -->
+## 8. Google analytics
+<!-- - **Infos Technique**: Pays, Région, Ville, Langue, Fuseau Horaire, Type d'Appareil, OS, Navigateur Résolution écran -->
+<!-- - **Infos réseau**: Type de connexion (WiFi / mobile), Fournisseur, IP anonymisée -->
+<!-- - **Comportement Site**: pages vues, durée d’engagement, taux de rebond, chemin de navigation, source du trafic -->
+<!-- - **Lien visiter**: Github, LinkedIn, CV, Email -->
+<!-- - **Projet**:  Projet Regarder -->
+<!-- - **Scroll**: Combien scroll sur ton site, si les gens lisent le contenue -->

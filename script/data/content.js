@@ -29,6 +29,7 @@ fetch('data/content.json')
       link.className = 'button';
       link.href = item.href || '#';
       link.setAttribute('aria-label', item.label || 'Lien');
+      link.onclick = () => trackClick(item.label);
 
       if (item.external) {
         link.target = '_blank';

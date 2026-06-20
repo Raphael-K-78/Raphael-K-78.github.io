@@ -8,6 +8,7 @@ progress,meter{
         padding: 0;
         position: absolute;
         top: 0;
+        z-index: 2;
         --progress-color: white;
     }
 
