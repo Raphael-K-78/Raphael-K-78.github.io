@@ -7,7 +7,7 @@
       "description_courte": "Application web progressive (PWA) de comptage de présences lors d'événements, avec visualisations graphiques et export des données.",
       "links": [
         { "label": "GitHub", "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/Countify" },
-        { "label": "Démo", "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "http://countify.raphael.kondratiuk.mmi-velizy.fr/" }
+        { "label": "Démo","external": true, "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "http://countify.raphael.kondratiuk.mmi-velizy.fr/" }
       ],
       "description_longue": "Countify est une application web progressive (_PWA_) conçue pour remplacer les clickers(_compteurs mécanique_) lors d'événements. Elle permet de compter le nombre de participants présents.\n### Contexte\nDéveloppée dans le cadre d'un projet universitaire pour le BUT MMI de l'IUT de Vélizy, Countify a été créée en réponse au besoin de l'exposition de fin d'année **Re-Sens**. L'équipe organisatrice cherchait une solution simple et efficace pour suivre le flux de visiteurs en temps réel.\n### Objectifs\n- Comptabiliser précisément les arrivées et départs de visiteurs en direct\n- Fournir des statistiques instantanées et des visualisations pour analyser le flux de l'événement\n- Offrir une solution fiable même sans connexion Internet (condition réelle d'un événement)\n- Faciliter la gestion et le suivi pour l'équipe organisatrice\n### Solution\nJ'ai développé une **Progressive Web App** offrant :\n- Comptage en temps réel avec deux boutons simples (Arrivée / Départ)\n- Stockage local des données (IndexedDB) pour fonctionner hors ligne\n- Service Worker garantissant la disponibilité de l'application sans connexion\n- Statistiques et graphiques interactifs pour visualiser les tendances (par minute, heure, journée)\n- Interface responsive et intuitive pour une utilisation tablette & mobile sur l'événement\n- **Import de données CSV** pour charger les événements\n- **Export CSV** pour analyser les données après l'événement\n### Résultat/Impact\n**Succès en condition réelle** : L'application a été validée par l'équipe organisatrice et a permis de comptabiliser précisément **plus de 150 visiteurs** lors de l'exposition ***Re-Sens*** en une après-midi.\n\n**Apprentissages clés**: Conception d'une application offline-first, gestion des données en temps réel, et validation d'un projet en conditions d'utilisation réelle.\n### **Fonctionnalités**\n- Comptage en temps réel des participants\n- Visualisation graphique des données collectées\n- Export des données au format CSV pour analyse ultérieure\n- Interface utilisateur intuitive et responsive\n- Import des données au format CSV\n### **Technologies**\n- **Language**:HTML, CSS, JavaScript\n- **Librairies**: SheetJS, Chart.js,\n- **API native**: Service Worker, IndexedDB",
       "img_slide": [
@@ -44,10 +44,10 @@
       "img_src_alt": "Aperçu de Sinai",
       "description_courte": "Site web d'une agence de communication associé à une campagne de sensibilisation au tri des déchets.",
       "links": [
-        { "label": "GitHub Agence", "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI1-A2/tree/main/Sinai" },
-        { "label": "Démo Agence", "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://sinai.raphael.kondratiuk.mmi-velizy.fr/" },
-        { "label": "GitHub Campagne", "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI1-A2/tree/main/Campagne" },
-        { "label": "Démo Campagne", "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://sinai.raphael.kondratiuk.mmi-velizy.fr/Campagne" }
+        { "label": "GitHub Agence", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI1-A2/tree/main/Sinai" },
+        { "label": "Démo Agence", "external": true, "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://sinai.raphael.kondratiuk.mmi-velizy.fr/" },
+        { "label": "GitHub Campagne", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI1-A2/tree/main/Campagne" },
+        { "label": "Démo Campagne", "external": true, "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://sinai.raphael.kondratiuk.mmi-velizy.fr/Campagne" }
       ],
       "description_longue": "Sinai est un **projet web complet** combinant un site vitrine pour une agence de communication fictive et une **campagne de sensibilisation interactive au tri des déchets**. Développé en **PHP et SQL**, il intègre un quiz gamifié, une interface d'administration et des systèmes de sécurité robustes.\n### Contexte\nCe projet a été réalisé dans le cadre d'un projet universitaire pour le BUT MMI. L'objectif était de créer un site web complet avec une **expérience utilisateur engageante** et des fonctionnalités interactives, tout en mettant l'accent sur la gestion des données.\n### Objectifs\n- Créer un **site vitrine** pour l'agence de communication Sinai\n- Développer une **campagne interactive** de sensibilisation au tri des déchets\n- Implémenter un **quiz gamifié** pour éduquer les utilisateurs\n- Fournir un **backoffice** pour gérer les quiz et ses résultats\n### Solution\nLe site offre :\n\n**Côté utilisateur**:\n- Présentation de l'agence et de ses services\n- Campagne interactive avec quiz sur le tri des déchets\n- Système de score et feedback immédiat pour les utilisateurs\n\n**Côté administrateur**:\n- Gestion des questions du quiz et des contenus du site\n- Visualisation des résultats et statistiques des participants\n- Interface sécurisée avec authentification et gestion des rôles\n### **Fonctionnalités**\n- Site vitrine interactif pour l'agence Sinai\n- Quiz gamifié sur le tri des déchets\n- Backoffice administrateur sécurisé\n- Gestion des contenus et des résultats du quiz\n### **Technologies**\n- **Language**: HTML, CSS, JavaScript, PHP, SQL",
       "img_slide": [
@@ -65,8 +65,8 @@
       "img_src_alt": "Aperçu de Polygone",
       "description_courte": "Webdocumentaire interactif sur les jeux vidéo ultraréalistes, intégrant des APIs YouTube et GitHub.",
       "links": [
-        { "label": "GitHub", "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI2-A2/tree/main/Polygone" },
-        { "label": "Démo", "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://polygone.raphael.kondratiuk.mmi-velizy.fr/" }
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/MMI2-A2/tree/main/Polygone" },
+        { "label": "Démo", "external": true, "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "https://polygone.raphael.kondratiuk.mmi-velizy.fr/" }
       ],
       "description_longue": "Polygone est un **webdocumentaire interactif** explorant l'univers des **jeux vidéo ultraréalistes**. Développé en **HTML, CSS et JavaScript vanilla**, le projet intègre l'**API YouTube** pour embarquer des vidéos de gameplay et crée une **narration non-linéaire immersive** autour de l'évolution graphique dans les jeux.\n### Contexte\nCe projet a été réalisé dans le cadre d'un projet universitaire pour le BUT MMI.\n### Objectifs\n- Créer un **webdocumentaire immersif** sur les jeux vidéo ultraréalistes\n- Offrir une **navigation non-linéaire** permettant aux utilisateurs de choisir leur parcours\n- Développer une interface responsive et intuitive pour tous les appareils\n### Solution\nLe webdocumentaire offre :\n- Une interface interactive avec des sections thématiques\n- Intégration de vidéos YouTube pour illustrer les propos\n- Navigation fluide entre les différentes parties du documentaire\n### **Fonctionnalités**\n- Webdocumentaire interactif sur les jeux vidéo ultraréalistes\n- Intégration de vidéos via l'API YouTube\n- Navigation non-linéaire et immersive\n- Interface responsive et intuitive\n### **Technologies**\n- **Language**: HTML, CSS, JavaScript\n- **API**: YouTube API",
       "img_slide": [
@@ -101,6 +101,101 @@
         { "src": "src/img/Project/wordpress/wordpress2.webp", "alt": "Inwink Event - Vue 2" },
         { "src": "src/img/Project/wordpress/wordpress3.webp", "alt": "Inwink Event - Vue 3" },
         { "src": "src/img/Project/wordpress/wordpress4.webp", "alt": "Inwink Event - Vue 4" }
+      ]
+    },
+    {
+      "name":"Nookdex",
+      "img_src":"src/img/Project/acnh/acnh_1.webp",
+      "img_src_alt": "Aperçu de l'application Nookdex",
+      "links": [
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/ACNH-Collection" }
+      ],
+      "description_courte":"Application Vibe Coder avec Claude pour référencer les plans, les insectes, les poissons, les oeuvres d'arts du jeu Animal Crossing New Horizons",
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/acnh/acnh_1.webp", "alt": "Nookdex - Vue 1" },
+        { "src": "src/img/Project/acnh/acnh_2.webp", "alt": "Nookdex - Vue 2" },
+        { "src": "src/img/Project/acnh/acnh_3.webp", "alt": "Nookdex - Vue 3" },
+        { "src": "src/img/Project/acnh/acnh_4.webp", "alt": "Nookdex - Vue 4" },
+        { "src": "src/img/Project/acnh/acnh_5.webp", "alt": "Nookdex - Vue 5" },
+        { "src": "src/img/Project/acnh/acnh_6.webp", "alt": "Nookdex - Vue 6" }
+      ]
+    },
+    {
+      "name":"Complexité Algorithmique",
+      "img_src":"src/img/Project/complexite/complexite_github.webp",
+      "img_src_alt": "Aperçu du Repo sur la Complexité Algorithmique",
+      "description_courte":" Cour sur la complexité algorithmique avec des exemples sur les algorithme de trie et de recherche",
+      "links": [
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/Complexit-" }
+      ],
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/complexite/complexite_github.webp", "alt": "Complexité - Repo Github" },
+        { "src": "src/img/Project/complexite/complexite_installation.webp", "alt": "Complexité - Méthode d'installation" },
+        { "src": "src/img/Project/complexite/complexite_recherche.webp", "alt": "Complexité - Graphe sur les algorithme de recherche" },
+        { "src": "src/img/Project/complexite/complexite_tri.webp", "alt": "Complexité - Graphe sur les algorithme de tri" },
+        { "src": "src/img/Project/complexite/complexite_usage.webp", "alt": "Complexité - Méthode d'utilisation" }
+      ]
+    },
+    {
+      "name":"ICS-API",
+      "img_src":"src/img/Project/ics-api/ics-api_postman.webp",
+      "img_src_alt": "Requête Posteman de ics-api",
+      "links": [
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/ics-api" }
+      ],
+      "description_courte":"API créer avec FastAPI permettant de télécharger, parser et filtrer des fichiers ICS (iCalendar) à partir d’une URL distante.",
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/ics-api/ics-api_github.webp", "alt": "ics-api - Repo Github" },
+        { "src": "src/img/Project/ics-api/ics-api_postman.webp", "alt": "ics-api - Postman" },
+        { "src": "src/img/Project/ics-api/ics-api_powershell.webp", "alt": "ics-api - Powershell" },
+        { "src": "src/img/Project/ics-api/ics-api_vscode.webp", "alt": "ics-api - vscode" }
+      ]
+    },
+    {
+      "name":"Infini Dino Run",
+      "img_src":"src/img/Project/infini-dino-run/infini-dino-run_github.webp",
+      "img_src_alt": "Repo Github d'infini dino run",
+      "links": [
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/Infini-Dino-Run" },
+        { "label": "Dino","external": true, "img": "https://cdn.simpleicons.org/googlechrome/white", "href": "chrome://dino" }
+      ],
+      "description_courte":"Petit script JavaScript permet de rendre le jeu Chrome Dino infini. Le dinosaure ne meurt plus, et tu peux courir éternellement sans Game Over",
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/infini-dino-run/infini-dino-run_github.webp", "alt": "Infini Dino Run - Repo Github" },
+        { "src": "src/img/Project/infini-dino-run/infini-dino-run_chrome.webp", "alt": "Infini Dino Run - Chrome" }
+      ]
+    },
+    {
+      "name":"React Materials Icon System",
+      "img_src":"src/img/Project/react-materials-icon-system/react-material-icon-system_npm.webp",
+      "img_src_alt": "react-materials-icon-system - npm ",
+      "links": [
+        { "label": "GitHub", "external": true, "img": "https://cdn.simpleicons.org/github/white", "href": "https://github.com/Raphael-K-78/react-material-icon-system" },
+        { "label": "npm","external": true, "img": "https://cdn.simpleicons.org/npm/white", "href": "https://www.npmjs.com/package/react-material-icon-system" }
+      ],
+      "description_courte":"Composant React simple permettant d'utiliser les variantes de Google Material Icons avec une API unique.",
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/react-materials-icon-system/react-materials-icon-system_github.webp", "alt": "react-materials-icon-system - Repo Github" },
+        { "src": "src/img/Project/react-materials-icon-system/react-material-icon-system_npm.webp", "alt": "react-materials-icon-system - npm" },
+        { "src": "src/img/Project/react-materials-icon-system/react-material-icon-system_test.webp", "alt": "react-materials-icon-system - test" },
+        { "src": "src/img/Project/react-materials-icon-system/react-material-icon-system_vscode.webp", "alt": "react-materials-icon-system - vscode" }
+      ]
+    },
+    {
+      "name":"WebpConverter",
+      "img_src":"src/img/Project/WebpConverter/WebpConverter.webp",
+      "img_src_alt": "Application WebpConverter",
+      "links": [],
+      "description_courte":"Application éxécutable, coder en Python permettant de transformer un dossier ou un set de fichier image de différent format en Webp. Ainsi que des compresser les images",
+      "description_longue":"",
+      "img_slide": [
+        { "src": "src/img/Project/WebpConverter/WebpConverter.webp", "alt": "WebpConverter - vue 1" },
+        { "src": "src/img/Project/WebpConverter/WebpConverter2.webp", "alt": "WebpConverter - vue 2" }
       ]
     }
   ]
