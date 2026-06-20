@@ -36,18 +36,25 @@ fetch('data/content.json')
         link.rel = 'noopener noreferrer';
       }
 
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      svg.setAttribute('viewBox', item.viewBox || '0 0 24 24');
-      svg.setAttribute('aria-hidden', 'true');
+      // const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      // svg.setAttribute('viewBox', item.viewBox || '0 0 24 24');
+      // svg.setAttribute('aria-hidden', 'true');
 
-      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-      path.setAttribute('d', item.path || '');
-      svg.appendChild(path);
+      // const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      // path.setAttribute('d', item.path || '');
+      // svg.appendChild(path);
+
+      const img = document.createElement('img');
+      img.src = item.img || '';
+      img.alt = item.label || '';
+      img.setAttribute('aria-hidden', 'true');
+
 
       const text = document.createElement('span');
       text.textContent = item.label || '';
 
-      link.appendChild(svg);
+      // link.appendChild(svg);
+      link.appendChild(img);
       link.appendChild(text);
       footerLinks.appendChild(link);
     });

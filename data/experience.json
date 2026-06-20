@@ -3,7 +3,7 @@
     {
       "poste": "Alternant - Intégrateur Web",
       "entreprise": "EventTech Services",
-      "link": "https://www.linkedin.com/company/105781203/",
+      "link": "www.eventtech-services.com",
       "img": "https://api-frontassets.inwink.com/community/f78784be-ac6b-f011-8dca-0022488a3cad/asset/3b1c2ecb-afa5-f011-8e61-000d3a2355f0/file/rework-20logo-2012-20full-20new",
       "mission": "Sept. 2025 - Aujourd’hui · Paris (Hybride)\nIntégration et personnalisation de sites événementiels avec le CMS Inwink. Développement front-end, optimisation UI/UX, accessibilité et support technique lors d’événements.",
      "competences": [
@@ -16,7 +16,7 @@
         { "src": "https://cdn.simpleicons.org/sass", "alt": "SCSS" },
         { "src": "https://cdn.simpleicons.org/claude", "alt": "Claude" },
         { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
-        { "src": "https://cdn.simpleicons.org/markdown", "alt": "Markdown" },
+        { "src": "https://cdn.simpleicons.org/markdown/white", "alt": "Markdown" },
         { "src": "https://cdn.simpleicons.org/gitea", "alt": "Gitea" },
         { "src": "https://www.inwink.com/wp-content/uploads/2022/03/inwink-logo.svg", "alt": "Inwink" }
       ]
@@ -24,12 +24,12 @@
     {
       "poste": "Stagiaire - Intégrateur Web",
       "entreprise": "EventTech Services",
-      "link": "https://www.linkedin.com/company/105781203/",
+      "link": "www.eventtech-services.com",
       "img": "https://api-frontassets.inwink.com/community/f78784be-ac6b-f011-8dca-0022488a3cad/asset/3b1c2ecb-afa5-f011-8e61-000d3a2355f0/file/rework-20logo-2012-20full-20new",
       "mission": "Avr. 2025 - Août 2025 · Paris\nParticipation à des projets clients (ADEME, Mercator Océan, JO 2024). Intégration front-end, développement WordPress et personnalisation CMS.",
       "competences": [
         { "src": "https://cdn.simpleicons.org/html5", "alt": "HTML5" },
-        {"src":"https://cdn.simpleicons.org/json", "alt": "JSON"},
+        {"src":"https://cdn.simpleicons.org/json/white", "alt": "JSON"},
         { "src": "https://cdn.simpleicons.org/css", "alt": "css" },
         { "src": "https://cdn.simpleicons.org/javascript", "alt": "JavaScript" },
         { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" },
@@ -40,7 +40,7 @@
     {
       "poste": "CDD - Tuteur Développement Web",
       "entreprise": "UVSQ Université de Versailles Saint-Quentin-en-Yvelines",
-      "link": "https://www.linkedin.com/company/472434/",
+      "link": "https://www.iut-velizy-rambouillet.uvsq.fr/",
       "img": "https://www.uvsq.fr/uas/ksup/LOGO/logo-UVSQ-2020-RVB.png",
       "mission": "Fév. 2025 - Avr. 2025 · Vélizy-Villacoublay\nAccompagnement pédagogique d’un étudiant en développement web. Structuration du code, bonnes pratiques et méthodologie projet.",
       "competences": [
@@ -50,7 +50,7 @@
         { "src": "https://cdn.simpleicons.org/mysql", "alt": "MySQL" },
         { "src": "https://cdn.simpleicons.org/php", "alt": "PHP" },
         { "src": "https://cdn.simpleicons.org/virtualbox", "alt": "VirtualBox" },
-        { "src": "https://cdn.simpleicons.org/markdown", "alt": "Markdown" }
+        { "src": "https://cdn.simpleicons.org/markdown/white", "alt": "Markdown" }
       ]
     },
     {

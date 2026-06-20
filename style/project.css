@@ -1,24 +1,17 @@
-#projects .horizontal {
-  background-color: transparent;
+#projects {
   display: flex;
+  flex-direction: column;
   color: white;
-  justify-content: space-around;
-  align-items: flex-start;
   padding-top: 5em;
   padding-bottom: 5em;
   counter-reset: project;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  gap: 1.5em;
-  align-items: stretch;
-  overflow-x: scroll;
+  gap: 1em;
+  width: 90%;
+  margin: 0 auto;
 }
-#projects .horizontal .popover {
+#projects .popover {
   background: rgba(0, 0, 0, 0.95);
-  border: 1px solid #000;
-  padding: 24px;
   border: 5px solid white;
-  box-sizing: border-box;
   box-sizing: border-box;
   position: absolute;
   height: 100%;
@@ -29,14 +22,9 @@
   margin-right: 0;
   border-radius: 20px 0 0 20px;
   border-right: 0;
+  overflow: hidden;
 }
-#projects .horizontal .popover md {
-  margin: 16px 0 0 0;
-  line-height: 1.4;
-  color: white;
-  text-align: left;
-}
-#projects .horizontal .popover .close-btn {
+#projects .popover .close-btn {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -49,81 +37,136 @@
   color: white;
   font-weight: bold;
   padding: 0;
+  overflow: hidden;
+  z-index: 10;
 }
-#projects .horizontal .popover h2 {
+#projects .popover .popover-content {
+  padding: 24px;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+#projects .popover .popover-content md {
+  margin: 16px 0 0 0;
+  line-height: 1.4;
+  color: white;
+  text-align: left;
+}
+#projects .popover .popover-content h2 {
   margin: 0 0 12px 0;
   font-size: 1.2rem;
 }
-#projects .horizontal .popover p {
+#projects .popover .popover-content p {
   margin: 0 0 16px 0;
   line-height: 1.4;
   color: white;
 }
-#projects .horizontal .popover .slider {
+#projects .popover .popover-content .slider {
   max-height: 500px;
 }
-#projects .horizontal .project {
+#projects .project {
   counter-increment: project;
   position: relative;
   border-radius: 10px;
-  padding: 1em;
-  width: 300px;
-  text-align: center;
-  padding-top: 5em;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 2px solid white;
-  min-width: 350px;
 }
-#projects .horizontal .project p {
-  text-align: left;
+#projects .project .project-links {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }
-#projects .horizontal .project img {
-  width: 100%;
-  max-width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-}
-#projects .horizontal .project > img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  aspect-ratio: 16/9;
-}
-#projects .horizontal .project h3 {
+#projects .project .project-links a.button {
+  font-size: 0.8em;
   color: white;
 }
-#projects .horizontal .project::before {
-  content: counter(project, decimal-leading-zero);
-  top: 5px;
-  /*! width: 100%; */
-  /*! height: 100%; */
-  opacity: 1;
-  font-size: 4em;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+#projects .project .project-img-block {
+  width: 180px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+#projects .project .project-img-block img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+#projects .project .project-body {
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+#projects .project .project-body .project-num {
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+#projects .project .project-body h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
   margin: 0;
-  transition: opacity 0.3s ease;
-  /*! color: white; */
-  position: absolute;
-  /*! top: 10; */
-  left: 5px;
+}
+#projects .project .project-body p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+}
+#projects .project .project-body .project-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+#projects .project .project-body .project-footer .project-arrow {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+  color: white;
+}
+#projects .project .project-body .project-footer .project-arrow:hover {
+  color: white;
+  transform: translateX(3px);
 }
 
 @media screen and (max-width: 420px) {
-  #projects .horizontal .project {
-    min-width: 80vw;
+  #projects {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #projects .project {
+    flex-direction: column;
+  }
+  #projects .project .project-img-block {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  #projects .project .project-img-block img {
+    aspect-ratio: 16/9;
   }
 }
 @media (max-width: 768px) {
-  #projects .horizontal .popover {
+  #projects .popover {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
     border: none;
-    border-radius: 0 0 0 0;
+    border-radius: 0;
     background: rgba(0, 0, 0, 0.95);
   }
-  #projects .horizontal .popover .close-btn {
+  #projects .popover .close-btn {
     right: 15px;
     left: auto;
   }
